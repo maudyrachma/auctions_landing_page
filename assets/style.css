@@ -1,0 +1,73 @@
+.post-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+}
+
+.car-set{
+	margin-top : 137px;
+}
+
+.carousel-item:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: #0000008c;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-image{
+	min-height: 350px;
+    max-height: 700px;
+}
+
+.logo {
+	padding-right: 50px;
+}
+
+.medsos{
+	padding-right: 10px;
+}
+
+.list{
+	padding-right: 10px;
+	font-size: small;
+}
+
+.bag1{
+	color: #607d8b;
+}
+
+.button-cars a{
+	text-decoration: none;
+}
+.btn-icon {
+    background: #f3b148;
+    color: #607d8b;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    line-height: 34px;
+    font-size: 15px;
+}
+
+.btn-see-all {
+    position: relative;
+    padding-right: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+	.nav-head {
+		display: none;
+	}
+
+	.car-set{
+		margin-top: 100px;
+	}
+}
